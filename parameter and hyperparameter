@@ -1,0 +1,28 @@
+In summary, model parameters are estimated from data automatically and model hyperparameters are set manually and 
+are used in processes to help estimate model parameters.
+Model hyperparameters are often referred to as parameters because they are the parts of the machine learning that 
+must be set manually and tuned.
+If you have to specify a model parameter manually then
+it is probably a model hyperparameter.
+Some examples of model hyperparameters include:
+The learning rate for training a neural network.
+The C and sigma hyperparameters for support vector machines.
+The k in k-nearest neighbors.
+Many models have important parameters which cannot be directly estimated from the data. For example, 
+in the K-nearest neighbor classification model … This type of model parameter is referred to as a tuning 
+parameter because there is no analytical formula available to calculate an appropriate value.
+
+What is a Model Hyperparameter?
+A model hyperparameter is a configuration that is external to the model and whose value cannot be estimated from data.
+They are often used in processes to help estimate model parameters.
+They are often specified by the practitioner.
+They can often be set using heuristics.
+They are often tuned for a given predictive modeling problem.
+We cannot know the best value for a model hyperparameter on a given problem. We may use rules of thumb, 
+copy values used on other problems, or search for the best value by trial and error.
+When a machine learning algorithm is tuned for a specific problem, such as when you are using a grid search or a random search, 
+then you are tuning the hyperparameters of the model or order to discover the parameters of the model that result 
+in the most skillful predictions.
+In statistics, you may assume a distribution for a variable, such as a Gaussian distribution. Two parameters of the 
+Gaussian distribution are the mean (mu) and the standard deviation (sigma). This holds in machine learning, where these 
+parameters may be estimated from data and used as part of a predictive model.
